@@ -10,7 +10,7 @@ weight: 20
 
 {{< caution >}}
 ConfigMap does not provide secrecy or encryption.
-If the data you want to store are confidential, use a
+If the data you want to store is confidential, use a
 {{< glossary_tooltip text="Secret" term_id="secret" >}} rather than a ConfigMap,
 or use additional (third party) tools to keep your data private.
 {{< /caution >}}
